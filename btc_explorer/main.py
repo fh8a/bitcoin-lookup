@@ -6,7 +6,7 @@ def main():
     parser = argparse.ArgumentParser(description="btc addy lookup")
     parser.add_argument(
         "-t", "--target",
-        help="i fucking hate niggers",
+        help="use -t <bitcoin_address>",
         required=False
     )
     args = parser.parse_args()
